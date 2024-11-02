@@ -1,0 +1,108 @@
+#rojo{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+  }
+  h1{
+      width: 100%;
+      float: left;
+      height: 70px;  
+      background-color: rgb(186, 199, 154);
+        font-family: 'Playfair Display', serif;
+        font-weight: 100;
+        text-align: center;
+        color: #2c3e50;
+       
+    }
+    
+  
+  #mar{
+  background-color: rgb(179, 138, 216);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  }  
+  nav a{
+  font-weight: 600;    
+  padding-right: 0px;
+  text-decoration: none;
+  color: white;
+  }
+  #nose{
+  background-color: rgb(234, 247, 125);    
+  }
+  footer{
+      width: 100%; 
+      float: left;   
+      height: 53px;
+      background-color: rgb(139, 165, 45);
+      color: rgb(7, 6, 6);
+      margin-top: 20px;    
+  }
+  /* Encabezado de la pagina*/
+  #ro{
+      display: flex;
+      height: 60px;
+      background-color: black;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;    
+  }
+  /* Aqui comienza la info sobre la resistencia*/
+  .lunes{
+      width: 75%;
+      float: left;
+      background-color:rgb(5, 5, 5);
+      height: 1100px;
+      color:white;    
+  }
+  .tupac{
+    width: 25%; 
+    float: left; 
+    height: 950px;
+    background-color: rgb(66, 65, 65);
+    color: rgb(247, 218, 55); 
+    height: 800px;   
+  }
+  .section{
+    width: 100%; 
+    float: left;   
+    height: 55px;
+    background-color: rgb(255, 253, 129);
+    color: rgb(7, 6, 6);
+    margin-top: 20px;  
+    font-family: monospace;    
+  }
+  #causa{
+  width: 100%;
+  float: left;  
+  background-color: rgb(159, 190, 71);
+  color: rgb(0, 0, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .cono{
+    width: 100%; 
+    float: left;   
+    height: 55px;
+    background-color: rgb(94, 79, 79);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+ font-family: monospace;
+ border-style: solid;
+ border-color: rgb(202, 5, 5);
+  }
+  #gaz{
+  background-color: rgb(48, 39, 39);  
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #tren{
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e6da72;
+    background-color: black;
+   
+  }
