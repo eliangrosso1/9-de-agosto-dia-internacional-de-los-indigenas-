@@ -23,6 +23,7 @@
   background-color: rgb(179, 138, 216);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
+ 
   }  
   nav a{
   font-weight: 600;    
@@ -105,4 +106,11 @@
     color: #e6da72;
     background-color: black;
    
+  }
+  @media screen and (max-width:800px){
+    .tupac{
+      flex-direction: column;
+      height: 1000px;
+      justify-content: space-evenly;
+    }
   }
