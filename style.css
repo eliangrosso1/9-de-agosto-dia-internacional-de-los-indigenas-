@@ -107,16 +107,17 @@
     background-color: black;
    
   }
-  @media screen and (max-width:800px){
+  @media screen and (max-width:900px){
     .tupac{
       flex-direction: column;
-      height: 1000px;
+      height: 2200px;
       justify-content: space-evenly;
     }
-    footer{
-    flex-direction: column; 
-    height: 70px; 
-    justify-content: space-evenly;
+    .lunes{
+      flex-direction: column;
+      height: 2200px;
+      justify-content: space-evenly;
     }
+   
   }
  
