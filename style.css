@@ -1,30 +1,45 @@
 #rojo{
     display: flex;
     height: 70px;
-    background-color: black;
+    
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 50px;
+  
   }
   h1{
       width: 100%;
       float: left;
       height: 70px;  
-      background-color: rgb(186, 199, 154);
+      background-color: rgb(30, 41, 105);
         font-family: 'Playfair Display', serif;
         font-weight: 100;
         text-align: center;
-        color: #2c3e50;
+        color: #ffffff;
        
     }
-    
-  
   #mar{
-  background-color: rgb(179, 138, 216);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: oblique;
- 
-  }  
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:cadetblue; /* Fondo blanco para el contenedor */
+   font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 0 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 200px;
+  }
+#esi{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;  
+}
   nav a{
   font-weight: 600;    
   padding-right: 0px;
@@ -32,40 +47,62 @@
   color: white;
   }
   #nose{
-  background-color: rgb(234, 247, 125);    
+  background-color:cadetblue  
   }
   footer{
       width: 100%; 
       float: left;   
-      height: 53px;
-      background-color: rgb(139, 165, 45);
-      color: rgb(7, 6, 6);
+      height: 60px;
+      background-color: rgb(26, 21, 70);
+      color: rgb(255, 255, 255);
       margin-top: 20px;    
   }
   /* Encabezado de la pagina*/
   #ro{
       display: flex;
       height: 60px;
-      background-color: black;
+      background-color:rgb(85, 190, 176);
       justify-content: space-between;
       align-items: center;
-      padding: 10px;    
+      padding: 30px;    
+      border-style: solid;
+      
   }
+  
   /* Aqui comienza la info sobre la resistencia*/
   .lunes{
       width: 75%;
       float: left;
-      background-color:rgb(5, 5, 5);
-      height: 1100px;
-      color:white;    
+      background-color:cadetblue;
+      height: 800px;
+      color:rgb(0, 0, 0);    
+      border-style: solid;
+  }
+  #re{
+  border-style: solid;  
+ border-color: rgb(0, 0, 0);
+  }
+  #ali{
+  border-style: solid; 
+  border-color: rgb(0, 0, 0); 
+  }
+  #cul{
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);   
+  }
+  #revu{
+    border-style: solid; 
+    border-color: rgb(3, 3, 3);   
   }
   .tupac{
     width: 25%; 
     float: left; 
     height: 950px;
-    background-color: rgb(66, 65, 65);
-    color: rgb(247, 218, 55); 
-    height: 800px;   
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 246, 233); 
+    height: 700px;   
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
   }
   .section{
     width: 100%; 
@@ -74,38 +111,144 @@
     background-color: rgb(255, 253, 129);
     color: rgb(7, 6, 6);
     margin-top: 20px;  
-    font-family: monospace;    
+    font-family: monospace;
+      
   }
   #causa{
   width: 100%;
   float: left;  
-  background-color: rgb(159, 190, 71);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+  text-align:center;
+  line-height: 1,6px;
+  font-size: 16px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .cono{
     width: 100%; 
     float: left;   
     height: 55px;
-    background-color: rgb(94, 79, 79);
+    background-color: rgb(35, 30, 63);
     color: rgb(255, 255, 255);
-    margin-top: 20px;
+    margin-top: 5px;
  font-family: monospace;
  border-style: solid;
- border-color: rgb(202, 5, 5);
+ border-color: rgb(253, 200, 200);
   }
+  /*Aqui comienza los codigos sobre los conocimientos tradicionales */
+  #agri{
+width: 500px;
+ display: grid;
+ gap: 10px;
+ text-align: center;
+ margin-left: 300px;
+ border: 2px solid #000;
+    border-radius: 10px 20px 30px 40px;
+    background-color: cadetblue;
+  }
+  #mango{
+ margin-left: 900px;
+ margin-top: -250px;
+  }
+  #astro{
+    width: 500px;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    margin-left: 300px; 
+    border: 2px solid #000; 
+    border-radius: 10px 20px 30px 40px;
+    background-color: cadetblue;
+    margin-top: -18px;
+  }
+  #manzana{
+    margin-left: 900px;
+ margin-top: -240px;
+  }
+  #constru{
+    width: 500px;
+    display: grid;
+    gap: 10px;
+    text-align: center; 
+    margin-left: 300px;
+    border: 2px solid #000; 
+    border-radius: 10px 20px 30px 40px;
+    background-color: cadetblue;
+  }
+  #fruti{
+    margin-left: 900px;
+ margin-top: -220px;
+  }
+  #hablar{
+    width: 500px;
+    display: grid;
+    gap: 10px;
+    text-align:center;
+    margin-left: 300px;
+    border: 2px solid #000; 
+    border-radius: 10px 20px 30px 40px;
+    background-color: cadetblue;
+   margin-top: -1px; 
+  }
+  #ciruela{
+    margin-left: 900px;
+    margin-top: -220px;
+  } /* Aqui terminan los codigos sobre conocimientos tradicionales */
   #gaz{
-  background-color: rgb(48, 39, 39);  
+  background-color: rgb(48, 44, 66);  
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 00%;
   }
   #tren{
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
+     text-align:center;
+   background-color:cadetblue;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-style: italic;
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+            color: #000000;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            margin: 15px 0;
+  }
+  #fernan{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(109, 158, 160); /* Fondo blanco para el contenedor */
+   font-size: 16px;
     line-height: 1.6;
-    color: #e6da72;
-    background-color: black;
-   
+    color: #333;
+    margin: 0 0 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 00px;  
+   text-align: center;
+  }
+  /* Comienza codigos sobre los problemas de los indigenas */
+  .despojo{
+ border: 2px solid #000;
+    border-radius: 10px 20px 30px 40px;
+    background-color: rgb(211, 204, 111);
+  }
+  .discriminacion{
+    border: 2px solid #000;
+    border-radius: 10px 20px 30px 40px;
+    background-color: rgb(211, 204, 111);
+  }
+  .perdida{
+    border: 2px solid #000;
+    border-radius: 10px 20px 30px 40px;
+    background-color: rgb(211, 204, 111);  
+  }
+  .conflictos{
+    border: 2px solid #000;
+    border-radius: 10px 20px 30px 40px;
+    background-color: rgb(211, 204, 111);  
   }
   @media screen and (max-width:900px){
     .tupac{
@@ -120,4 +263,5 @@
     }
    
   }
+ 
  
